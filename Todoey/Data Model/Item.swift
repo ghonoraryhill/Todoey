@@ -5,7 +5,7 @@
 //  Created by Peter Ehrenberg on 04.01.18.
 //  Copyright © 2018 Peter Ehrenberg. All rights reserved.
 //
-class Item {
+class Item: Codable {
     var title: String = ""
     var done: Bool = false
 }
